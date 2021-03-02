@@ -24,7 +24,7 @@ class Computer
         puts " wrong answer"
         @current_player.lives -= 1
         if @current_player.lives == 0
-          return puts "game over"
+          return puts "Game Over You Lose !"
         end
         puts @current_player.lives
       end
